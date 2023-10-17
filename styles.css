@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    height: 100vh;
+    max-width: 100%;
+    background-image: url(images/67511e918c5964219b704c066eaa736d.jpg);
+    background-size: cover;
+}
+.p-tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#days{
+    font-size: 3rem;
+}
+#hours{
+    font-size: 3rem;
+}
+#mins{
+    font-size: 3rem;
+}
+#secs{
+    font-size: 3rem;
+}
+.title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    
+}
+.title h1{
+    color: rgb(194, 52, 0);
+    font-family: 'Kaushan Script', cursive;
+}
+.container{
+    
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.div-container{
+    max-width: 100%;
+    margin-bottom: 10rem;
+
+}
+p{
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+    
+}
+@media only screen and (max-width: 600px){
+    body{
+        height: 100vh;
+        max-width: 100%;
+        background-image: url(images/67511e918c5964219b704c066eaa736d.jpg);
+        background-size: cover;
+    }
+    .p-tags{
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        text-align: center;
+        
+    }
+    #days{
+        font-size: 1.8rem;
+    }
+    #hours{
+        font-size: 1.8rem;
+    }
+    #mins{
+        font-size: 1.8rem;
+    }
+    #secs{
+        font-size: 1.8rem;
+    }
+    .title{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        
+    }
+    .title h1{
+        color: rgb(194, 52, 0);
+        font-family: 'Kaushan Script', cursive;
+    }
+    .container{
+        
+        height: 100vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .div-container{
+        max-width: 100%;
+        margin-bottom: 10rem;
+    
+    }
+    p{
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: orangered;
+        background-color: black;
+        
+    }
+}
