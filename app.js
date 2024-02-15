@@ -2,7 +2,7 @@
 function countDown(){
 
 //setting the startdate, and the halloween date.
-const halloween = new Date('10/31/2023 00:00:00').getTime();
+const halloween = new Date('10/31/2024 00:00:00').getTime();
 const startDate = new Date().getTime();
 
 //then making variable to subtract the dates.
