@@ -1,59 +1,57 @@
+/* Styles for the entire page */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: white;
 }
+/* Styles for the body which has the image of the background at full height and width that covers the entire page */
 body{
     height: 100vh;
     max-width: 100%;
     background-image: url(images/67511e918c5964219b704c066eaa736d.jpg);
     background-size: cover;
 }
+/* ptags for the countdown numbers to line up next to each other */
 .p-tags{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;   
 }
-#days{
-    font-size: 3rem;
-}
-#hours{
-    font-size: 3rem;
-}
-#mins{
-    font-size: 3rem;
-}
+/* Font sizes for the days, hours, mins and seconds*/
+#days,
+#hours,
+#mins,
 #secs{
     font-size: 3rem;
 }
+/* to center and align the title Happy Halloween */
 .title{
     text-align: center;
     margin-bottom: 3rem;
-    font-size: 3rem;
-    
+    font-size: 3rem; 
 }
+/* To make the text be a certain color and a font from Google */
 .title h1{
     color: rgb(194, 52, 0);
     font-family: 'Kaushan Script', cursive;
 }
+/* Container for the whole container */
 .container{
-    
     height: 100vh;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
+/* Container for the countdown values */
 .div-container{
     max-width: 100%;
     margin-bottom: 10rem;
 
 }
+/* to style the countdown values */
 p{
     padding: 0.5rem 2rem;
     font-size: 1.2rem;
@@ -61,6 +59,7 @@ p{
     color: orangered;
     
 }
+/* To make a mobile responsive */
 @media only screen and (max-width: 600px){
     body{
         height: 100vh;
