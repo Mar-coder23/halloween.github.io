@@ -2,7 +2,7 @@
 function countDown(){
 
 //setting the startdate, and the halloween date.
-const halloween = new Date('10/31/2024 00:00:00').getTime();
+const halloween = new Date('10/31/2025 00:00:00').getTime();
 const startDate = new Date().getTime();
 
 //then making variable to subtract the dates.
@@ -34,7 +34,7 @@ document.getElementById('secs').innerHTML = formatTime(textSeconds);
 //setting the interval to numbers we like.
 setInterval(countDown, 1000);
 
-//making a formaTime function and having a time parameter to add a 0 in front of text that would be single digit eventually.
+//making a formatTime function and having a time parameter to add a 0 in front of text that would be single digit eventually.
 function formatTime(time){
     return time < 10 ?`0${time}` : time;
 }
